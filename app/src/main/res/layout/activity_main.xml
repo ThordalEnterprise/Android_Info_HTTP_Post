@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="610dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/adidText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google Advertising ID"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android ID"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Device Name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Software Version"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Device Model"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serial Number"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Display"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hardware"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Device Host"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText20"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/adidText21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Device ID"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Local IP Address"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MAC Wifi Address #1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MAC Wifi Address #3"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bluetooth Name of Device"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brand"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fingerprint"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Product"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bluetooth Address"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bluetooth State"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bluetoothLeAdvertiser"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IMSI"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="deviceSoftwareVersion"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="manufacturerCode"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="networkCountryIso"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="networkOperator"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="networkOperatorName"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="networkSpecifier"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adidText60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/adidText61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
